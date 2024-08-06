@@ -15,7 +15,7 @@ cadena con un espacio adicional tras cada letra. Por ejemplo, “Hola, epet5” 
         {
             string texto;
 
-            Console.WriteLine("Ingrese el texto");
+            Console.WriteLine("Ingrese el texto:");
             texto = Console.ReadLine();
 
             convertirEspacio(texto);
